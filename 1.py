@@ -4,7 +4,6 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
-print("------->重新执行此文件，渲染展示页面")
 api_key = os.environ.get('DEEPSEEK_API_KEY')
 
 st.set_page_config(
